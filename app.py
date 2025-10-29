@@ -14,4 +14,3 @@ CORS(app, resources={
     }
 })
 
-app.run()
