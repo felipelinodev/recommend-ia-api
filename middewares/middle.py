@@ -1,5 +1,12 @@
 from middewares.fech_api import fetch_google_fonts
 import os
+import uuid
+
+
+
+def generate_id_with_uuid() -> str:
+    generate_id = uuid.uuid4()
+    return generate_id
 
 from dotenv import load_dotenv
 load_dotenv()
@@ -23,6 +30,8 @@ def call_google_fonts(res_string: str) -> dict:
     split_res: dict = res_string["fonts"]
 
     full_dic: dict = {"fonts": []}
+
+    id = generate_id_with_uuid()
     
     for font in split_res:
         
@@ -32,10 +41,9 @@ def call_google_fonts(res_string: str) -> dict:
         curr_font_search: dict | bool = verify_math_fonts(name)
 
         if curr_font_search:
-            merge_dick = {"name": name, "rank": rank} | curr_font_search
+            merge_dick = {"name": name, "rank": rank, "font_id": id} | curr_font_search
             full_dic["fonts"].append(merge_dick)
         
             
 
     return full_dic
-
