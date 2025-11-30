@@ -31,10 +31,12 @@ def call_google_fonts(res_string: str) -> dict:
 
     full_dic: dict = {"fonts": []}
 
-    id = generate_id_with_uuid()
+    
     
     for font in split_res:
         
+        id = generate_id_with_uuid()
+
         name: str = font["name"]
         rank: str = font["rank"]
 
