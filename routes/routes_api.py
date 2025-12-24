@@ -37,7 +37,7 @@ def give_response():
     try:
         token = request.headers.get('Authorization')
         if token != f'Bearer {TOKEN}':
-            return {"error": "Token inválido."}, 401
+             raise Exception('Taken inválido.')
 
         prompt = request.json
     
@@ -57,7 +57,7 @@ def give_response_textual():
     try:
         token = request.headers.get('Authorization')
         if token != f'Bearer {TOKEN}':
-            return {"error": "Token inválido."}, 401
+            raise Exception('Taken inválido.')
 
         prompt = request.json
 
