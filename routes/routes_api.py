@@ -37,7 +37,7 @@ def give_response():
     try:
         token = request.headers.get('Authorization')
         if token != f'Bearer {TOKEN}':
-            raise Exception('Taken inválido.')
+            return {"error": "Token inválido."}, 401
 
         prompt = request.json
     
@@ -55,6 +55,10 @@ def give_response():
 @give_ia_response.route("/textual", methods=['POST'])   
 def give_response_textual():
     try:
+        token = request.headers.get('Authorization')
+        if token != f'Bearer {TOKEN}':
+            return {"error": "Token inválido."}, 401
+
         prompt = request.json
 
         res = _process_request_string(prompt, SYSTEM_PROMPT_TEXTUAL)
