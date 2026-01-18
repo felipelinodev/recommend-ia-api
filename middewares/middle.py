@@ -25,6 +25,9 @@ def verify_math_fonts(match_name: str) -> dict | bool:
                 "font_variation": len(font["files"])} 
     return False
 
+def verify_math_fonts_by_tag(tag: str) -> list[dict]: 
+    matches = [font for font in all_fonts if font.get("category") == tag]
+    return matches
 
 def call_google_fonts(res_string: str) -> dict:
     split_res: dict = res_string["fonts"]

@@ -5,6 +5,7 @@ import core.prompts as s
 
 from middewares.middle import call_google_fonts
 from core.model_connection import send_prompt
+from middewares.middle import verify_math_fonts_by_tag
 
 from dotenv import load_dotenv
 import os
@@ -17,7 +18,6 @@ SYSTEM_PROMPT_TEXTUAL: str = s.TEXTUAL
 SYSTEM_PROMPT_STRUCTURED: str = s.STRUCTURED
 
 give_ia_response =  Blueprint("give_ia_response", __name__)
-
 
 def _process_request_string(prompt: str, system_prompt: str) -> dict | Exception:
     try:
@@ -72,4 +72,18 @@ def give_response_textual():
         return {"error": f"erro desconhecido: {e}"}, 500 
         
    
-    
+@give_ia_response.route('/categorized', methods=['POST'])
+def give_response_categorized():
+    try:
+        token = request.headers.get('Authorization')
+        if token != f'Bearer {TOKEN}':
+            raise Exception('Token Inválido.')
+
+        font_tag = request.json
+        font_name = font_tag.get("font")
+        if not font_name:
+             return {"error": "font missing"}, 400
+        
+        return verify_math_fonts_by_tag(font_name)
+    except Exception as e:
+        return {"error": f"erro desconhecido: {e}"}, 500   
