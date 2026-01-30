@@ -84,6 +84,6 @@ def give_response_categorized():
         if not font_name:
              return {"error": "font missing"}, 400
         
-        return verify_math_fonts_by_tag(font_name)
+        return jsonify(verify_math_fonts_by_tag(font_name))
     except Exception as e:
         return {"error": f"erro desconhecido: {e}"}, 500   
