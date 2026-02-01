@@ -482,6 +482,87 @@
     },
     "pixelada_8bit": {
       "fontes": ["Press Start 2P", "VT323", "Silkscreen", "DotGothic16", "Share Tech Mono"]
+    },
+    "gothic_blackletter_medieval": {
+      "fontes": ["UnifrakturMaguntia", "Pirata One", "MedievalSharp", "IM Fell English SC", "Almendra", "Cinzel Decorative"]
+    },
+    "art_deco_gatsby": {
+      "fontes": ["Poiret One", "Aclonica", "Megrim", "Syncopate", "Tenor Sans", "Josefin Sans"]
+    },
+    "thin_light_delicada": {
+      "fontes": ["Raleway", "Josefin Sans", "Nunito", "Lato", "Montserrat", "Open Sans", "Roboto"]
+    },
+    "ultra_bold_extra_pesada": {
+      "fontes": ["Anton", "Bebas Neue", "Archivo Black", "Black Ops One", "Ultra", "Alfa Slab One", "Bungee", "Russo One"]
+    },
+    "rounded_arredondada": {
+      "fontes": ["Varela Round", "Nunito", "Comfortaa", "Quicksand", "M PLUS Rounded 1c", "Lexend", "Fredoka"]
+    },
+    "angular_quadrada": {
+      "fontes": ["Orbitron", "Exo 2", "Michroma", "Electrolize", "Chakra Petch", "Share Tech"]
+    },
+    "typewriter_maquina_escrever": {
+      "fontes": ["Special Elite", "Courier Prime", "Cutive Mono", "Overpass Mono", "Anonymous Pro", "Zilla Slab"]
+    },
+    "sports_atletico_esportivo": {
+      "fontes": ["Teko", "Russo One", "Bungee", "Black Ops One", "Staatliches", "Saira Condensed", "Khand"]
+    },
+    "horror_terror_assustador": {
+      "fontes": ["Creepster", "Nosifer", "Eater", "Butcherman", "Fruktur", "Metal Mania", "Henny Penny"]
+    },
+    "kids_infantil_crianca": {
+      "fontes": ["Bubblegum Sans", "Comic Neue", "Patrick Hand", "Schoolbell", "Chewy", "Gloria Hallelujah", "Short Stack", "Baloo 2"]
+    },
+    "wedding_casamento_formal_script": {
+      "fontes": ["Great Vibes", "Allura", "Alex Brush", "Tangerine", "Pinyon Script", "Sacramento", "Cormorant Garamond", "Libre Baskerville"]
+    },
+    "tattoo_tatuagem": {
+      "fontes": ["Permanent Marker", "Rock Salt", "Kaushan Script", "Racing Sans One", "Yellowtail", "Metal Mania"]
+    },
+    "neon_brilhante_luminoso": {
+      "fontes": ["Monoton", "Bungee Shade", "Faster One", "Rubik Moonrocks", "Rubik Wet Paint", "Rubik Puddles"]
+    },
+    "newspaper_jornal_editorial": {
+      "fontes": ["Libre Baskerville", "Playfair Display", "PT Serif", "Lora", "Crimson Pro", "Source Serif Pro", "Spectral"]
+    },
+    "logo_branding_marca": {
+      "fontes": ["Montserrat", "Poppins", "Raleway", "Bebas Neue", "Oswald", "Playfair Display", "Abril Fatface", "Cinzel"]
+    },
+    "sci_fi_espacial": {
+      "fontes": ["Orbitron", "Audiowide", "Aldrich", "Nova Square", "Electrolize", "Iceland", "Michroma"]
+    },
+    "handwritten_casual_informal": {
+      "fontes": ["Caveat", "Indie Flower", "Amatic SC", "Shadows Into Light", "Kalam", "Handlee", "Patrick Hand"]
+    },
+    "handwritten_formal_caligrafia": {
+      "fontes": ["Dancing Script", "Parisienne", "Allura", "Great Vibes", "Lobster Two", "Satisfy"]
+    },
+    "brush_pincel": {
+      "fontes": ["Permanent Marker", "Rock Salt", "Caveat Brush", "Homemade Apple", "Nothing You Could Do", "Yellowtail"]
+    },
+    "corporate_empresarial": {
+      "fontes": ["Roboto", "Open Sans", "Lato", "Source Sans Pro", "IBM Plex Sans", "Inter", "Nunito Sans"]
+    },
+    "gaming_jogos": {
+      "fontes": ["Press Start 2P", "Orbitron", "Audiowide", "Bungee", "Black Ops One", "Rubik Glitch", "Teko"]
+    },
+    "food_restaurante_comida": {
+      "fontes": ["Lobster", "Pacifico", "Satisfy", "Amatic SC", "Playfair Display", "Merriweather"]
+    },
+    "fashion_moda": {
+      "fontes": ["Didact Gothic", "Josefin Sans", "Raleway", "Playfair Display", "Bodoni Moda", "Cormorant"]
+    },
+    "music_musica": {
+      "fontes": ["Rock Salt", "Permanent Marker", "Bangers", "Bungee", "Anton", "Teko"]
+    },
+    "health_saude_wellness": {
+      "fontes": ["Open Sans", "Lato", "Nunito", "Quicksand", "Work Sans", "DM Sans"]
+    },
+    "education_educacao": {
+      "fontes": ["Roboto", "Open Sans", "Lato", "Patrick Hand", "Comic Neue", "Nunito"]
+    },
+    "travel_viagem": {
+      "fontes": ["Amatic SC", "Pacifico", "Lobster", "Dancing Script", "Satisfy", "Permanent Marker"]
     }
   },
   "instruções_processamento": {
