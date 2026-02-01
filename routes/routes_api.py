@@ -5,7 +5,8 @@ import core.prompts as s
 
 from middewares.middle import call_google_fonts
 from core.model_connection import send_prompt
-from middewares.middle import verify_math_fonts_by_tag
+from middewares.middle import verify_match_fonts_by_tag
+from middewares.middle import call_google_fonts_by_name
 
 from dotenv import load_dotenv
 import os
@@ -72,18 +73,37 @@ def give_response_textual():
         return {"error": f"erro desconhecido: {e}"}, 500 
         
    
-@give_ia_response.route('/categorized', methods=['POST'])
+@give_ia_response.route('/categorized', methods=['GET'])
 def give_response_categorized():
     try:
         token = request.headers.get('Authorization')
         if token != f'Bearer {TOKEN}':
             raise Exception('Token Inválido.')
 
-        font_tag = request.json
-        font_name = font_tag.get("font")
-        if not font_name:
+        font_category = request.args.get('category')
+        
+        if not font_category:
              return {"error": "font missing"}, 400
         
-        return jsonify(verify_math_fonts_by_tag(font_name))
+        return jsonify(verify_match_fonts_by_tag(font_category))
     except Exception as e:
         return {"error": f"erro desconhecido: {e}"}, 500   
+
+
+give_ia_response.route('/named', methods=['GET'])
+def give_ia_response_font_name():
+    try:
+        token = request.headers.get('Authorization')
+        if token != f'Bearer {TOKEN}':
+            raise Exception('Token Inválido.')
+
+        font_name = request.args.get('font')
+        font_matched = call_google_fonts_by_name(font_name)
+
+        if not font_matched:
+             return {"error": "font missing"}, 400
+
+        return jsonify(font_matched)
+
+    except Exception as e:
+       return {"error": f"erro desconhecido: {e}"}, 500       
