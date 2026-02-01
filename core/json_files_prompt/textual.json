@@ -88,7 +88,78 @@
         "luxuoso",
         "amigável",
         "formal",
-        "casual"
+        "casual",
+        "vazada",
+        "outline",
+        "contorno",
+        "stencil",
+        "brush",
+        "manuscrita",
+        "condensada",
+        "estreita",
+        "larga",
+        "decorativa",
+        "display",
+        "monospace",
+        "slab",
+        "serifada",
+        "sans-serif",
+        "script",
+        "geométrica",
+        "grunge",
+        "vintage",
+        "retro",
+        "pixelada",
+        "3d",
+        "sombra",
+        "gradiente",
+        "medieval",
+        "gótica",
+        "blackletter",
+        "art deco",
+        "gatsby",
+        "fina",
+        "leve",
+        "delicada",
+        "pesada",
+        "extra bold",
+        "arredondada",
+        "angular",
+        "quadrada",
+        "máquina de escrever",
+        "typewriter",
+        "esportiva",
+        "atlética",
+        "terror",
+        "horror",
+        "assustadora",
+        "infantil",
+        "criança",
+        "casamento",
+        "convite",
+        "caligrafia",
+        "tatuagem",
+        "neon",
+        "brilhante",
+        "luminosa",
+        "jornal",
+        "editorial",
+        "logo",
+        "marca",
+        "branding",
+        "sci-fi",
+        "espacial",
+        "gaming",
+        "jogos",
+        "restaurante",
+        "comida",
+        "moda",
+        "fashion",
+        "música",
+        "saúde",
+        "wellness",
+        "educação",
+        "viagem"
       ],
       "typographic_contexts": [
         "aplicativo",
@@ -489,6 +560,333 @@
         "IBM Plex Sans",
         "Crimson Text",
         "Lora"
+      ],
+      "outline_vazada_contorno": [
+        "Londrina Outline",
+        "Bungee Outline",
+        "Monoton",
+        "UnifrakturCook",
+        "Eater",
+        "Henny Penny"
+      ],
+      "stencil": [
+        "Stardos Stencil",
+        "Allerta Stencil",
+        "Sancreek",
+        "Rye",
+        "Stalinist One"
+      ],
+      "handwritten_brush_manuscrita": [
+        "Rock Salt",
+        "Kaushan Script",
+        "Homemade Apple",
+        "Just Another Hand",
+        "Covered By Your Grace",
+        "Nothing You Could Do",
+        "Architects Daughter"
+      ],
+      "condensed_estreita": [
+        "Roboto Condensed",
+        "Oswald",
+        "Barlow Condensed",
+        "PT Sans Narrow",
+        "Yanone Kaffeesatz",
+        "Abel",
+        "Pathway Gothic One"
+      ],
+      "monospace_codigo": [
+        "Fira Code",
+        "JetBrains Mono",
+        "Source Code Pro",
+        "IBM Plex Mono",
+        "Roboto Mono",
+        "Inconsolata",
+        "Ubuntu Mono"
+      ],
+      "display_decorativa": [
+        "Bangers",
+        "Creepster",
+        "Bungee",
+        "Rubik Glitch",
+        "Press Start 2P",
+        "Silkscreen",
+        "Black Ops One",
+        "Fascinate",
+        "Faster One"
+      ],
+      "slab_serif": [
+        "Roboto Slab",
+        "Arvo",
+        "Zilla Slab",
+        "Rockwell",
+        "Crete Round",
+        "Bitter",
+        "Rokkitt"
+      ],
+      "geometrica": [
+        "Montserrat",
+        "Poppins",
+        "Raleway",
+        "Quicksand",
+        "Comfortaa",
+        "Josefin Sans",
+        "Varela Round"
+      ],
+      "vintage_retro": [
+        "Abril Fatface",
+        "Lobster",
+        "Bungee",
+        "Righteous",
+        "Alfa Slab One",
+        "Bevan",
+        "Ultra"
+      ],
+      "grunge_textured": [
+        "Special Elite",
+        "Redacted Script",
+        "Lacquer",
+        "Metal Mania",
+        "Creepster"
+      ],
+      "pixelada_8bit": [
+        "Press Start 2P",
+        "VT323",
+        "Silkscreen",
+        "DotGothic16",
+        "Share Tech Mono"
+      ],
+      "gothic_blackletter_medieval": [
+        "UnifrakturMaguntia",
+        "Pirata One",
+        "MedievalSharp",
+        "IM Fell English SC",
+        "Almendra",
+        "Cinzel Decorative"
+      ],
+      "art_deco_gatsby": [
+        "Poiret One",
+        "Aclonica",
+        "Megrim",
+        "Syncopate",
+        "Tenor Sans",
+        "Josefin Sans"
+      ],
+      "thin_light_delicada": [
+        "Raleway Thin",
+        "Josefin Sans Light",
+        "Nunito Light",
+        "Lato Light",
+        "Montserrat Thin",
+        "Open Sans Light",
+        "Roboto Thin"
+      ],
+      "ultra_bold_extra_pesada": [
+        "Anton",
+        "Bebas Neue",
+        "Archivo Black",
+        "Black Ops One",
+        "Ultra",
+        "Alfa Slab One",
+        "Bungee",
+        "Russo One"
+      ],
+      "rounded_arredondada": [
+        "Varela Round",
+        "Nunito",
+        "Comfortaa",
+        "Quicksand",
+        "M PLUS Rounded 1c",
+        "Lexend",
+        "Fredoka"
+      ],
+      "angular_quadrada": [
+        "Orbitron",
+        "Exo 2",
+        "Michroma",
+        "Electrolize",
+        "Chakra Petch",
+        "Share Tech"
+      ],
+      "typewriter_maquina_escrever": [
+        "Special Elite",
+        "Courier Prime",
+        "Cutive Mono",
+        "Overpass Mono",
+        "Anonymous Pro",
+        "Zilla Slab"
+      ],
+      "sports_atletico_esportivo": [
+        "Teko",
+        "Russo One",
+        "Bungee",
+        "Black Ops One",
+        "Staatliches",
+        "Saira Condensed",
+        "Khand"
+      ],
+      "horror_terror_assustador": [
+        "Creepster",
+        "Nosifer",
+        "Eater",
+        "Butcherman",
+        "Fruktur",
+        "Metal Mania",
+        "Henny Penny"
+      ],
+      "kids_infantil_crianca": [
+        "Bubblegum Sans",
+        "Comic Neue",
+        "Patrick Hand",
+        "Schoolbell",
+        "Chewy",
+        "Gloria Hallelujah",
+        "Short Stack",
+        "Baloo 2"
+      ],
+      "wedding_casamento_formal_script": [
+        "Great Vibes",
+        "Allura",
+        "Alex Brush",
+        "Tangerine",
+        "Pinyon Script",
+        "Sacramento",
+        "Cormorant Garamond",
+        "Libre Baskerville"
+      ],
+      "tattoo_tatuagem": [
+        "Permanent Marker",
+        "Rock Salt",
+        "Kaushan Script",
+        "Racing Sans One",
+        "Yellowtail",
+        "Metal Mania"
+      ],
+      "neon_brilhante_luminoso": [
+        "Monoton",
+        "Bungee Shade",
+        "Faster One",
+        "Rubik Moonrocks",
+        "Rubik Wet Paint",
+        "Rubik Puddles"
+      ],
+      "newspaper_jornal_editorial": [
+        "Libre Baskerville",
+        "Playfair Display",
+        "PT Serif",
+        "Lora",
+        "Crimson Pro",
+        "Source Serif Pro",
+        "Spectral"
+      ],
+      "logo_branding_marca": [
+        "Montserrat",
+        "Poppins",
+        "Raleway",
+        "Bebas Neue",
+        "Oswald",
+        "Playfair Display",
+        "Abril Fatface",
+        "Cinzel"
+      ],
+      "sci_fi_espacial": [
+        "Orbitron",
+        "Audiowide",
+        "Aldrich",
+        "Nova Square",
+        "Electrolize",
+        "Iceland",
+        "Michroma"
+      ],
+      "handwritten_casual_informal": [
+        "Caveat",
+        "Indie Flower",
+        "Amatic SC",
+        "Shadows Into Light",
+        "Kalam",
+        "Handlee",
+        "Patrick Hand"
+      ],
+      "handwritten_formal_caligrafia": [
+        "Dancing Script",
+        "Parisienne",
+        "Allura",
+        "Great Vibes",
+        "Lobster Two",
+        "Satisfy"
+      ],
+      "brush_pincel": [
+        "Permanent Marker",
+        "Rock Salt",
+        "Caveat Brush",
+        "Homemade Apple",
+        "Nothing You Could Do",
+        "Yellowtail"
+      ],
+      "corporate_empresarial": [
+        "Roboto",
+        "Open Sans",
+        "Lato",
+        "Source Sans Pro",
+        "IBM Plex Sans",
+        "Inter",
+        "Nunito Sans"
+      ],
+      "gaming_jogos": [
+        "Press Start 2P",
+        "Orbitron",
+        "Audiowide",
+        "Bungee",
+        "Black Ops One",
+        "Rubik Glitch",
+        "Teko"
+      ],
+      "food_restaurante_comida": [
+        "Lobster",
+        "Pacifico",
+        "Satisfy",
+        "Amatic SC",
+        "Playfair Display",
+        "Merriweather"
+      ],
+      "fashion_moda": [
+        "Didact Gothic",
+        "Josefin Sans",
+        "Raleway",
+        "Playfair Display",
+        "Bodoni Moda",
+        "Cormorant"
+      ],
+      "music_musica": [
+        "Rock Salt",
+        "Permanent Marker",
+        "Bangers",
+        "Bungee",
+        "Anton",
+        "Teko"
+      ],
+      "health_saude_wellness": [
+        "Open Sans",
+        "Lato",
+        "Nunito",
+        "Quicksand",
+        "Work Sans",
+        "DM Sans"
+      ],
+      "education_educacao": [
+        "Roboto",
+        "Open Sans",
+        "Lato",
+        "Patrick Hand",
+        "Comic Neue",
+        "Nunito"
+      ],
+      "travel_viagem": [
+        "Amatic SC",
+        "Pacifico",
+        "Lobster",
+        "Dancing Script",
+        "Satisfy",
+        "Permanent Marker"
       ]
     },
     "decision_logic_final": {

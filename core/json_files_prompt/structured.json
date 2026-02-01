@@ -95,14 +95,15 @@
       "nome": "Atributos tipográficos válidos",
       "descrição": "Atributos devem ser CARACTERÍSTICAS TIPOGRÁFICAS válidas. Os atributos devem descrever qualidades visuais, estéticas ou funcionais de fontes.",
       "categorias": {
-        "estilo": ["moderno", "clássico", "vintage", "retrô", "minimalista", "ornamentado", "geométrico", "orgânico"],
+        "estilo": ["moderno", "clássico", "vintage", "retrô", "minimalista", "ornamentado", "geométrico", "orgânico", "outline", "vazada", "stencil", "condensada", "grunge", "pixelada"],
         "personalidade": ["elegante", "ousado", "amigável", "sofisticado", "profissional", "casual", "formal", "informal"],
         "energia": ["dinâmico", "calmo", "vibrante", "estático", "energético", "sereno", "agitado"],
         "impacto": ["impactante", "sutil", "forte", "delicado", "marcante", "discreto", "bold", "chamativo"],
-        "função": ["legível", "funcional", "decorativo", "técnico", "prático"],
+        "função": ["legível", "funcional", "decorativo", "técnico", "prático", "display", "monospace"],
         "contexto": ["corporativo", "criativo", "luxuoso", "jovem", "tradicional", "futurista", "exclusivo", "premium"],
         "movimento": ["fluido", "rígido", "rápido", "lento"],
         "textura": ["suave", "áspero", "refinado", "rústico", "industrial", "artesanal"],
+        "anatomia": ["serifada", "sans-serif", "slab", "script", "manuscrita", "brush", "contorno", "estreita", "larga"],
         "outros": ["confiável", "sério", "divertido", "expressivo", "humanista", "manuscrito", "acessível"]
       },
       "inválidos": {
@@ -448,6 +449,39 @@
     },
     "orgânico_natural": {
       "fontes": ["Lora", "Merriweather", "Libre Baskerville", "Crimson Text"]
+    },
+    "outline_vazada_contorno": {
+      "fontes": ["Londrina Outline", "Bungee Outline", "Monoton", "UnifrakturCook", "Eater", "Henny Penny"]
+    },
+    "stencil": {
+      "fontes": ["Stardos Stencil", "Allerta Stencil", "Sancreek", "Rye", "Stalinist One"]
+    },
+    "handwritten_brush_manuscrita": {
+      "fontes": ["Rock Salt", "Kaushan Script", "Homemade Apple", "Just Another Hand", "Covered By Your Grace", "Nothing You Could Do", "Architects Daughter"]
+    },
+    "condensed_estreita": {
+      "fontes": ["Roboto Condensed", "Oswald", "Barlow Condensed", "PT Sans Narrow", "Yanone Kaffeesatz", "Abel", "Pathway Gothic One"]
+    },
+    "monospace_codigo": {
+      "fontes": ["Fira Code", "JetBrains Mono", "Source Code Pro", "IBM Plex Mono", "Roboto Mono", "Inconsolata", "Ubuntu Mono"]
+    },
+    "display_decorativa": {
+      "fontes": ["Bangers", "Creepster", "Bungee", "Rubik Glitch", "Press Start 2P", "Silkscreen", "Black Ops One", "Fascinate", "Faster One"]
+    },
+    "slab_serif": {
+      "fontes": ["Roboto Slab", "Arvo", "Zilla Slab", "Crete Round", "Bitter", "Rokkitt"]
+    },
+    "geometrica": {
+      "fontes": ["Montserrat", "Poppins", "Raleway", "Quicksand", "Comfortaa", "Josefin Sans", "Varela Round"]
+    },
+    "vintage_retro": {
+      "fontes": ["Abril Fatface", "Lobster", "Bungee", "Righteous", "Alfa Slab One", "Bevan", "Ultra"]
+    },
+    "grunge_textured": {
+      "fontes": ["Special Elite", "Redacted Script", "Lacquer", "Metal Mania", "Creepster"]
+    },
+    "pixelada_8bit": {
+      "fontes": ["Press Start 2P", "VT323", "Silkscreen", "DotGothic16", "Share Tech Mono"]
     }
   },
   "instruções_processamento": {
