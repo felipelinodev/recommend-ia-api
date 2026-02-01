@@ -9,7 +9,7 @@ app.register_blueprint(give_ia_response)
 CORS(app, resources={
     r"/*": {
         "origins": "*",
-        "methods": ["POST", "OPTIONS"],
+        "methods": ["GET", "POST", "OPTIONS"],
         "allow_headers": ["Content-Type", "Authorization"]
     }
 })

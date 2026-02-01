@@ -81,7 +81,7 @@ def give_response_categorized():
             raise Exception('Token Inválido.')
 
         font_category = request.args.get('category')
-        
+
         if not font_category:
              return {"error": "font missing"}, 400
         
@@ -90,7 +90,7 @@ def give_response_categorized():
         return {"error": f"erro desconhecido: {e}"}, 500   
 
 
-give_ia_response.route('/named', methods=['GET'])
+@give_ia_response.route('/named', methods=['GET'])
 def give_ia_response_font_name():
     try:
         token = request.headers.get('Authorization')
@@ -102,7 +102,7 @@ def give_ia_response_font_name():
 
         if not font_matched:
              return {"error": "font missing"}, 400
-
+        
         return jsonify(font_matched)
 
     except Exception as e:
