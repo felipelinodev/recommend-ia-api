@@ -53,7 +53,6 @@ def call_google_fonts(res_string: str) -> dict:
 
 def call_google_fonts_by_name(name: str):
     id: str = generate_id_with_uuid()
-
     
     match_font: str = verify_match_fonts(name)    
 
@@ -61,6 +60,7 @@ def call_google_fonts_by_name(name: str):
         return None
 
     match_font["font_id"] = id
+    match_font["name"] = name
 
     return match_font
 
